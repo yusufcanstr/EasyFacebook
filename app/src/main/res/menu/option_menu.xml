@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/add_post" android:title="Gönderi Ekle" android:icon="@drawable/back_icon"/>
+    <item android:id="@+id/signout" android:title="Çıkış Yap" android:icon="@drawable/back_icon"/>
+
+</menu>

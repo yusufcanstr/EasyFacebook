@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/facebook"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/mainActivity_emailText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/SolukMavi"
+            android:hint="Email giriniz"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@drawable/edtitext_background"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/mainActivity_passwordText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edtitext_background"
+            android:hint="Şifre giriniz"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColorHint="@color/SolukMavi"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:onClick="HesapOlustur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hesap Oloştur"
+            android:textColor="@color/SolukMavi"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="girisYap"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@null"
+            android:background="@drawable/button_bacground"
+            android:text="Giriş Yap"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
